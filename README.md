@@ -37,7 +37,7 @@ Este projeto foi desenvolvido com:
 git clone https://github.com/seu-usuario/agendamentos-alarmes.git
 
 # Entre no diretório
-cd agendador-de-alarmes
+cd agendamentos-alarmes
 
 # Instale as dependências
 npm install
