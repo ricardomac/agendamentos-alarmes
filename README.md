@@ -34,7 +34,7 @@ Este projeto foi desenvolvido com:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/agendador-de-alarmes.git
+git clone https://github.com/seu-usuario/agendamentos-alarmes.git
 
 # Entre no diretório
 cd agendador-de-alarmes
