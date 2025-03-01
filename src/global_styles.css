@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-800 font-sans;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-md transition-colors duration-200 font-medium;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-primary-dark;
+}
+
+.btn-outline {
+  @apply border border-gray-300 hover:bg-gray-100;
+}
+
+.day-button {
+  @apply w-12 h-12 rounded-full flex items-center justify-center transition-colors duration-200 text-sm;
+}
+
+.day-button.active {
+  @apply bg-primary text-white;
+}
+
+.day-button.inactive {
+  @apply bg-gray-200 text-gray-600 hover:bg-gray-300;
+}
+
+.time-input {
+  @apply w-24 h-12 border border-gray-300 rounded-md text-center text-xl;
+}
